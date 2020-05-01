@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+  background: #f9f9f9;
+}
+
+h1{
+  text-align: center;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  text-align: justify;
+}
+
+/*For the link to go back*/
+
+.btn9 {
+        width: 400px;
+        height: 100px;
+        font-weight: 700;
+        font-size: 25px;
+        border: 4px solid;
+        background: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        margin:35px;
+      }
+
+ .btn10 {
+        color: #333;
+      }
+
+.btn9::before,
+      .btn::after {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 4px;
+        background-color: white;
+        transform: skewX(50deg);
+        transition: 0.4s linear;
+      }
+      .btn9::before {
+        top: -4px;
+        left: 10%;
+      }
+
+      .btn9::after {
+        top: 52px;
+        right: 10%;
+      }
+
+      .btn9:hover::before {
+        left: 80%;
+      }
+
+      .btn9:hover::after {
+        right: 80%;
+      }
+
+/*For the animation on the H1*/
+
+h1 span{
+    width: 300px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+h1 span:hover{
+    transform: scale(1.1);
+}
+
+/*Size of the box*/
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+/*Presentation of the head*/
+.main-header {
+  height: 40vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #b50d10;
+}
+
+.main-header p {
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+/*Presentation of the box -> texte photo...*/
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 50px; /*space between the boxes*/
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 1;
+}
+
+@media (max-width: 960px){
+    .container {
+        width: 700px
+    }
+}
+@media (max-width: 720px){
+    .container {
+        width: 500px
+    }
+}
+@media (max-width: 540px){
+    .container {
+        width: 300px
+    }
+}
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 980px){
+    section{
+        width: 100%;
+        box-shadow: 0px 0px 10px #bbb;
+    }

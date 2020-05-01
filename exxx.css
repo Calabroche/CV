@@ -1,0 +1,177 @@
+
+/*Pres des photos */
+/*For the link to go back*/
+
+.btn9 {
+        width: 100px;
+        height: 100px;
+        font-weight: 700;
+        font-size: 25px;
+        border: 4px solid;
+        background: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        margin:35px;
+      }
+
+ .btn10 {
+        color: #333;
+      }
+
+.btn9::before,
+      .btn::after {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 4px;
+        background-color: white;
+        transform: skewX(50deg);
+        transition: 0.4s linear;
+      }
+      .btn9::before {
+        top: -4px;
+        left: 10%;
+      }
+
+      .btn9::after {
+        top: 52px;
+        right: 10%;
+      }
+
+      .btn9:hover::before {
+        left: 80%;
+      }
+
+      .btn9:hover::after {
+        right: 80%;
+      }
+
+/*For the animation on the H1*/
+
+h1 span{
+    width: 300px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+h1 span:hover{
+    transform: scale(1.1);
+}
+
+/*Size of the box*/
+
+/*Presentation of the head*/
+.main-header {
+  height: 20vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #b50d10;
+}
+
+.main-header p {
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.team-section{
+  height: 80vh;
+  display: flex;
+}
+
+.person{
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: .8s;
+}
+
+.person:hover{
+  flex: 3;
+}
+
+.person-pic{
+  position: absolute;
+  height: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: grayscale(15%);
+  transition: .4s;
+}
+
+.person:hover .person-pic{
+  filter: grayscale(0);
+}
+
+.person-info{
+  position: absolute;
+  bottom: 200px;
+  text-align: center;
+  width: 100%;
+}
+
+.person:hover .person-info{
+  opacity: 1;
+  bottom: 200px;
+  transition-delay: .6s;
+
+}
+
+.person-info h2{
+  font-size: 20px;
+  color: #fff;
+}
+.person-info p{
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+
+@media (max-width: 960px){
+    .container {
+        width: 700px
+    }
+}
+@media (max-width: 720px){
+    .container {
+        width: 500px
+    }
+}
+@media (max-width: 540px){
+    .container {
+        width: 300px
+    }
+}
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 980px){
+    section{
+        width: 100%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
