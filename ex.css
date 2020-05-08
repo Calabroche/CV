@@ -436,35 +436,33 @@ section > div{
 
 
 
-
-
 @media (max-width: 1080px){
-    .section {
+    .loader loader-bars {
         width: 100%;
     }
 }
 @media (max-width: 960px){
-    .section {
+    .loader loader-bars {
         width: 100%;
     }
 }
 @media (max-width: 768px){
-    .section {
+    .loader loader-bars {
         width: 100%;
     }
 }
 @media (max-width: 640px){
-    .section {
+    .loader loader-bars {
         width: 100%;
     }
 
 @media (max-width: 480px){
-    .section {
+    .loader loader-bars {
         width: 100%;
     }
 
 @media (max-width: 320px){
-    .section {
+    .loader loader-bars {
         width: 100%;
     }
 }
