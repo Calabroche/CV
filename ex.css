@@ -404,31 +404,31 @@ section > div{
 
 @media (max-width: 1080px){
     .container {
-        width: 100%
+        width: 100%;
     }
 }
 @media (max-width: 960px){
     .container {
-        width: 100%
+        width: 100%;
     }
 }
 @media (max-width: 750px){
     .container {
-        width: 100%
+        width: 100%;
     }
 }
 @media (max-width: 540px){
     .container {
-        width: 100%
+        width: 100%;
     }
 
 @media (max-width: 400px){
     .container {
-        width: 100%
+        width: 100%;
     }
 
 @media (max-width: 300px){
     .container {
-        width: 100%
+        width: 100%;
     }
 }
