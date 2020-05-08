@@ -399,12 +399,6 @@ section > div{
     transform: scale(1.3);
 }
 
-
-@media (max-width: 1440px){
-    .container {
-        width: 100%
-   
-}
 @media (max-width: 1080px){
     .container {
         width: 100%
