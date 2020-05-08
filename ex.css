@@ -400,106 +400,20 @@ section > div{
 }
 
 
-
-
-@media (max-width: 1080px){
-    .container {
-        width: 100%
-    }
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
 }
-@media (max-width: 960px){
-    .container {
-        width: 100%
-    }
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
 }
-@media (max-width: 750px){
-    .container {
-        width: 100%
-    }
-}
-@media (max-width: 540px){
-    .container {
-        width: 100%
-    }
-
-@media (max-width: 400px){
-    .container {
-        width: 100%
-    }
-
-@media (max-width: 300px){
-    .container {
-        width: 100%
-    }
-
-
-
-@media (max-width: 1080px){
-    .container3 {
-        width: 100%
-    }
-}
-@media (max-width: 960px){
-    .container3 {
-        width: 100%
-    }
-}
-@media (max-width: 750px){
-    .container3 {
-        width: 100%
-    }
-}
-@media (max-width: 540px){
-    .container3 {
-        width: 100%
-    }
-}
-
-
-
-
-@media (max-width: 1080px){
-    .photo {
-        width: 100%
-    }
-}
-@media (max-width: 960px){
-    .photo {
-        width: 100%
-    }
-}
-@media (max-width: 720px){
-    .photo {
-        width: 100%
-    }
-}
-@media (max-width: 540px){
-    .photo {
-        width: 100%
-    }
-}
-
-
-
-
-
-@media (max-width: 1080px){
-    .socialmedia {
-        width: 100%
-    }
-}
-@media (max-width: 960px){
-    .socialmedia {
-        width: 100%
-    }
-}
-@media (max-width: 720px){
-    .socialmedia {
-        width: 100%
-    }
-}
-@media (max-width: 540px){
-    .socialmedia {
-        width: 100%
-    }
-}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 520px;
+  }
