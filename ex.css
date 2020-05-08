@@ -246,7 +246,21 @@ section > div{
   }
 }
 
-
+@media (max-width: 960px){
+    .section {
+        width: 700px
+    }
+}
+@media (max-width: 720px){
+    .section {
+        width: 500px
+    }
+}
+@media (max-width: 540px){
+    .section {
+        width: 300px
+    }
+}
 /*SECTION COMPETENCES*/
 
 .skills{
