@@ -408,7 +408,7 @@ section > div{
 
 
 
-@media (max-width: 540px) {
+@media (max-width: 300px) {
     /* For a screen < 540px, this CSS will be read */
   header{
     width: 150%;
