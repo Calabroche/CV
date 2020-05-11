@@ -20,7 +20,7 @@ function hover(str) {
 	// 	});
 	// });
 }
-hover('Florian_CALABRESE');
+hover('Mon CV');
 
 function loaderFadeOut() {
   let loader = document.querySelector('.loader-layer');
