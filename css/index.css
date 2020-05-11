@@ -466,10 +466,10 @@ section > div{
     }
 
     .main-header {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     .container {
-        width: 100%;
+        width: 80%;
     }
 }
