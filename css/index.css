@@ -457,12 +457,12 @@ section > div{
 /* Landscape phones and down */
 @media (max-width: 480px) {
     #avatar{
-        width: 250px;
-        height: 250px;
+        width: 230px;
+        height: 230px;
     }
     
     header{
-        padding: 2px 0px;
+        padding: 0.5px 0px;
     }
 
     .main-header {
