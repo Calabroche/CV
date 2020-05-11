@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
   text-align: justify;
 
@@ -15,6 +15,7 @@ body {
 h1{
   text-align: center;
 }
+
 a {
   color: #333;
   text-decoration: none;
@@ -24,61 +25,61 @@ a {
 /*For the link to go back*/
 
 .btn9 {
-        width: 400px;
-        height: 100px;
-        font-weight: 700;
-        font-size: 25px;
-        border: 4px solid;
-        background: none;
-        text-transform: uppercase;
-        cursor: pointer;
-        position: relative;
-        margin:35px;
-      }
+  text-align: center;
+  /* width: 400px; */
+  /* height: 100px; */
+  font-weight: 700;
+  font-size: 25px;
+  border: 4px solid;
+  background: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  margin:35px;
+  box-sizing: border-box;
+}
 
- .btn10 {
-        color: #333;
-      }
+.btn10 {
+  color: #333;
+}
 
-.btn9::before,
-      .btn::after {
-        content: "";
-        position: absolute;
-        width: 14px;
-        height: 4px;
-        background-color: white;
-        transform: skewX(50deg);
-        transition: 0.4s linear;
-      }
-      .btn9::before {
-        top: -4px;
-        left: 10%;
-      }
+.btn9::before, .btn::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  background-color: white;
+  transform: skewX(50deg);
+  transition: 0.4s linear;
+}
+.btn9::before {
+  top: -4px;
+  left: 10%;
+}
 
-      .btn9::after {
-        top: 52px;
-        right: 10%;
-      }
+.btn9::after {
+  top: 52px;
+  right: 10%;
+}
 
-      .btn9:hover::before {
-        left: 80%;
-      }
+.btn9:hover::before {
+  left: 80%;
+}
 
-      .btn9:hover::after {
-        right: 80%;
-      }
+.btn9:hover::after {
+  right: 80%;
+}
 
 /*For the animation on the H1*/
 
 h1 span{
-    width: 300px;
-    display: inline-block;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: all 0.5s ease-in-out;
+  display: inline-block;
+  cursor: default;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
 }
 h1 span:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*Size of the box*/
@@ -98,6 +99,7 @@ h1 span:hover{
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .main-header h1 {
@@ -144,19 +146,19 @@ img {
 }
 
 @media (max-width: 960px){
-    .container {
-        width: 700px
-    }
+  .container {
+    width: 700px
+  }
 }
 @media (max-width: 720px){
-    .container {
-        width: 500px
-    }
+  .container {
+    width: 500px
+  }
 }
 @media (max-width: 540px){
-    .container {
-        width: 300px
-    }
+  .container {
+    width: 300px
+  }
 }
 @media(max-width:600px) {
   .card {
@@ -165,7 +167,7 @@ img {
 }
 
 @media screen and (min-width: 980px){
-    section{
-        width: 100%;
-        box-shadow: 0px 0px 10px #bbb;
-    }
+  section{
+    width: 100%;
+    box-shadow: 0px 0px 10px #bbb;
+  }
