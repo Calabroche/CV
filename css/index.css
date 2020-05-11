@@ -457,8 +457,8 @@ section > div{
 /* Landscape phones and down */
 @media (max-width: 480px) {
     #avatar{
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
     }
     
     header{
@@ -470,6 +470,6 @@ section > div{
     }
 
     .container {
-        width: 85%;
+        width: 95%;
     }
 }
