@@ -24,7 +24,7 @@ p{
     margin: 4px auto;
     text-align: center;
     color: black;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -466,7 +466,7 @@ section > div{
     }
 
     .main-header {
-        font-size: 0.5em;
+        font-size: 3em;
     }
 
     .container {
